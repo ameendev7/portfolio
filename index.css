@@ -290,6 +290,9 @@ color: white;
         flex-direction: column;
         gap: 50px;
     }
+    #main3 #ft{
+        width: 320px;
+    }
     #secpage , .ss , #main3{
         width: 100%;
         flex-direction: column;
