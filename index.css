@@ -1,0 +1,337 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins,sans-serif;
+}
+#navbar {
+    display:flex;
+    position: sticky;
+    top:0;
+    background-color: rgba(38, 38, 46, 0.91);
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 55px;
+
+}
+#home{
+    display:flex;
+    align-items: center;
+    column-gap: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+nav a{
+    transition: 0.3s ease-in;
+    height: 30px;
+}
+nav a:hover{
+    border-bottom: 2px solid red;
+}
+#ameenpics{
+    border-radius: 50%;
+    height: 400px;
+    width:350px ;
+    object-fit: cover;
+    
+}
+#main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin-top: 100px;
+
+}
+#fname{
+    font-size: 48px;
+}
+#lname{
+    font-size: 28px;
+    color: rgb(85, 85, 85);
+}
+#dcv{
+    width: 128px;
+    height:51.2px;
+    background-color: white;
+    margin-right: 20px;
+}
+#cinfo{
+    width: 128px;
+    height:51.2px;
+    background-color: #353535;
+    color:white;
+}
+#likd{
+    display: flex;
+    /* justify-content: center; */
+    gap: 2.3rem;
+    margin-left: 85px;
+    margin-top: 1rem;
+
+}
+#likd img{
+    height: 32px;
+    width:32px;
+
+}
+#secpic img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 45px;
+}
+.ss div img{
+ width: 40px;
+ height:30px;   
+ object-fit:contain;
+}
+#secpage{margin: auto;
+    display:flex;
+    justify-content: center; 
+    width: 90%;
+    align-items: center;
+    column-gap: 50px;
+    
+
+}
+.ss{
+    display:flex;
+    justify-content:space-around;
+    column-gap: 30px;
+    margin: 50px 0;
+    
+}
+.ss div{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    width:400px;
+    border-radius:50px;
+}
+.ss div p{
+    margin: 8px;
+}
+#secbox{
+    width:700px;
+}
+#abut{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+
+}
+#rand{
+    margin-top:  200px;
+    margin-bottom: 200px;
+}
+#bx2 i{
+ font-size: 25px;
+ height:30px;
+}
+#main3{
+    display:flex;
+    justify-content: center;
+}
+
+#main3 div div article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+
+    width: 200px;
+ 
+}
+#main3 div div img{
+    height: 40px;
+    width: 40px;
+    
+}
+#main3 div div article p{
+    width:80px;
+    text-align: left;
+    
+}
+#main3 #ft{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+padding: 30px;
+    border: 1px solid black;
+    margin:  50px;
+    width:350px;
+   border-radius: 20px;
+}
+#nalu{
+    border: 4px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    width:fit-content ;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+#pjt{
+    margin: 80px 0;
+}
+form input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #dfd5d5;
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height:200px;
+    width: 500px;
+}
+#btn4{
+    
+    width: 30%;
+    margin-left: 35%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-top:30px ;
+}
+#moonn{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 200px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 150px;
+    column-gap: 20px;
+}
+#moonn div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+}
+#moonn div img{
+    height:250px ;
+    width:250px ;
+    object-fit: contain;
+}
+#moonn div button{
+    color: black;
+
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+#dcv:hover{
+background-color: #000000;
+color: white;
+}
+#btn4:hover{
+    background-color: rgba(75, 68, 68, 0.855);
+    color:rgb(255, 255, 255);
+
+} 
+#hvba:hover{
+    background-color: black;
+    color:white;
+}
+#hvbb:hover{
+    background-color: black;
+    color:white;
+}
+#hvbc:hover{
+    background-color: black;
+    color:white;
+}
+#cinfo:hover{
+    background-color: #000000;
+}
+
+@media screen and (max-width:600px){
+    #logo a{
+        font-size: 20px !important; 
+      
+    }
+    #home{
+        column-gap: 10px;
+    
+    }
+    #navbar {
+       width: 100vw;
+       padding-left: 20px;
+    
+    }
+    #main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    #secpage , .ss , #main3{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ss div{
+        width: 300px;
+       margin: 10px;
+    }
+    #secbox{
+        width: 100%;
+    }
+    #secpic img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 45px;
+    }
+    #machan{
+        width: 350px;
+        margin: auto;
+    }
+    #moonn{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0;
+        margin: auto;
+    }
+    #nalu{
+        margin:50px auto;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    form {
+        margin-top: 50px;
+    }
+    form input, textarea{
+        width: 300px;
+    }
+    #btn4{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMEENDEV</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "l3ok00tm1Ska9TJ4o",
+      });
+   })();
+</script>
+
+  </head>
+  <body>
+    <header id="navbar">
+      <div id="logo">
+        <a href=""style="text-decoration: none; font-weight:bold; color: #fff; font-size:35px;"><span style="color: rgb(28, 227, 131);">AL</span>  AMEEN</a>
+      </div>
+      <nav id="home">
+<a href="#about" style="text-decoration: none; color:aqua;">About</a>
+<a href="#skill" style="text-decoration: none; color:aqua;">Skill</a>
+<a href="#project" style="text-decoration: none; color:aqua;">Project</a>
+<a href="#contact" style="text-decoration: none; color:aqua;">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="main">
+        <div>
+          <p>Hello I'm</p>
+          <h1 id="fname">AL AMEEN KP</h1>
+          <h2 id="lname">Software Developer</h2>
+          <div>
+            <button id="dcv" class="rounded-pill">Download CV</button>
+            <button id="cinfo" class="rounded-pill">Contact Info</button>
+          </div>
+          <div id="likd">
+            <a href="#"><img src="linkedin.png" alt="" /></a>
+            <a href="https://github.com/ameendev7"
+              ><img src="github-logo.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div>
+          <img id="ameenpics" src="ameenpic.jpg" alt="" />
+        </div>
+      </section>
+      <div id="about"></div>
+      <section id="rand" >
+        <h1 id="abut">About Me</h1>
+        <div id="secpage">
+          <div id="secpic">
+            <img src="newpic.jpg" alt=""/>
+          </div>
+          <div id="secbox">
+            <div class="ss">
+              <div id="bx">
+                <img src="rosette.jpg" alt="" />
+                <p>Experience</p>
+                <p>6 month intern as</p>
+                <p>Frontend Developer</p>
+              </div>
+              <div id="bx2">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p>Education</p>
+                <p>B.Tech</p>
+                <p>Computer Science</p>
+              </div>
+            </div>
+            <p style="color: rgb(85, 85, 85)" id="machan">
+              I'm a passionate MERN Stack Developer with a keen interest in
+              building efficient and scalable web applications. I specialize in
+              MongoDB, Express.js, React, and Node.js, bringing a comprehensive
+              approach to full-stack development. Currently, I'm actively
+              seeking opportunities to leverage my skills and contribute to
+              innovative projects. Let's create something amazing together!
+            </p>
+          </div>
+        </div>
+        <div id="skill"></div>
+      </section>
+      <section>
+        <h1 style="text-align: center">Skills</h1>
+        <div id="main3">
+          <div id="ft">
+            <h2>Frontend</h2>
+            <div>
+              <article>
+                <img id="ht" src="html.png" alt="" />
+                <p>HTML</p>
+              </article>
+              <article>
+                <img id="cs" src="css-3.png" alt="" />
+                <p>CSS</p>
+              </article>
+              <article>
+                <img id="jspt" src="js.png" alt="" />
+                <p>Javascript</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="ft">
+            <h2>Backend</h2>
+            <div>
+              <article>
+                <img id="dj" src="django.png" />
+                <p>Django</p>
+              </article>
+              <article>
+                <img id="lrvl" src="laravel.png" />
+                <p>Laravel</p>
+              </article>
+              <article>
+                <img id="spb" src="spbt.png" />
+                <p>Springboot</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="ft">
+            <h2>Languages</h2>
+            <div>
+              <article>
+                <img id="jv" src="java.png" />
+                <p>Java</p>
+              </article>
+              <article>
+                <img id="pt" src="python.png" />
+                <p>Python</p>
+              </article>
+              <article>
+                <img id="csh" src="c-sharp.png" />
+                <p>C-Sharp</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div id="project"></div>
+      </section>
+      <section>
+        <h1 id="pjt" style="text-align: center">Projects</h1>
+        <div id="moonn">
+          <div>
+            <img  id="bk" src="banke.jpg" alt="" />
+            <h2 style="text-align: center;">Banker Management</h2>
+            <button id="hvba">report</button>
+          </div>
+          <div>
+            <img id="cr" src="caregiver.jpeg" alt="" />
+            <h2>Caregiver system</h2>
+            <button id="hvbb">report</button>
+          </div>
+          <div>
+            <img  id="pt" src="price trcker.jpeg" alt="" />
+            <h2>E-commerce Tracking</h2>
+            <button id="hvbc">report</button>
+          </div>
+        </div>
+        
+      </section>
+      
+
+    </main>
+    <div id="contact"></div>
+    <form onsubmit="sendMail(event)">
+    <h1 id="lasth" style="text-align: center">Contact Me</h1>
+    <div id="nalu">
+      <div>
+        <h5 for="name">Name</h5>
+        <input id="name" type="text" placeholder="Enter Your Name" required />
+        <h5 for="email">E-mail</h5>
+        <input id="email" type="email" placeholder="Enter Your Email ID" required />
+        <h5 for="message">Message</h5>
+        <textarea id="message" rows="20" cols="20" required></textarea>
+        <button id="btn4"  type="submit">Send</button>
+      </div>
+      
+    </div>
+  </form>
+    <footer>
+        <p style="text-align: center;">Copyright © 2024 Ameendev. All Rights Reserved</p>
+      </footer>
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
