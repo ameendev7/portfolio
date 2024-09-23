@@ -272,6 +272,7 @@ color: white;
     background-color: #000000;
 }
 
+
 @media screen and (max-width:600px){
     #logo a{
         font-size: 20px !important; 
