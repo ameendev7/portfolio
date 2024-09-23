@@ -3,6 +3,9 @@ body{
     padding: 0px;
     font-family: Poppins,sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 #navbar {
     display:flex;
     position: sticky;
